@@ -1,0 +1,57 @@
+1. git init -- to initialize empty repo
+2. git status -- file present in repo which are untracked.
+3. ls -- shows all file(not hidden)
+4. ls -al -- shows all hidden files as well
+5. .git file really essential to keep track of all progress.
+6. git add index.js -- to start tracking a file
+7. If we edit anything from index.js we have to do git add index.js again to track the changes.
+8. git commit -- to commit the file in master.
+9. git log -- showa all commit.
+10. to add a repo remote -- git remote add origin (repo link).
+11. git remote -v -- to see all remote by default there will be (fetch and push).
+12. git branch-- to see all branches (by default branch is master).
+13. git push origin master -- to push toh master.
+14. git clone (http link) -- to download the code.
+15. When you clone a repo .git is already included in folder.
+16. git branch (branch-name) -- to create a branch.
+17. git checkout (branch-name) -- to switch to other branch.
+18. to push a branch to repo we repeat same steps.
+19. git fetch --all  -- to update the local repo in laptop with the updated on github.
+20. after fetch the other user can make changes and then commit it will be commited and can be seen in github if its in branch then it will seen there only not in master.
+21. git pull origin (branch-name) -- to get the changes made by other users
+22. For merge -- first checkout to master then cmd-> git merge (branch-name). By doing this you merger branches on local machine then you have to push to github for changes.
+23. When you merge a brach to master if there is difference on same line we get conflict. 
+24. If you want to keep both change just remove the arrows and equal to signs and do status and git  add and git commit....
+25. delete brach -- git branch -d (branc-name) .  delete branch only after you have merged.
+26. git push origin --delete (branch-name) -- to delete from remote repo.
+27. git commit --amend --- allows to edit last commit message.
+28. Every commit has its own id if we want to go back toh that state we have to do git commit (Id).
+29. If by any commit you messed up you can revert back with git commit.
+30. revert is also a commit 
+31. git revert (id of commit) -- will take back to that commit state
+32. git log --oneline --- will give all commits in one line shorter format.
+33. git log --graph will show all branches graph. clear picture of branching
+34. git log --graph --oneline  --- combination of graph and oneline.
+35. git log -p --- detail info of commit including files and lines.
+36. git log --after="yesterday"  --- shows all commit after yesterday.
+37. we can combine filtering and formatting cmd together to get better picture of commits.
+38. git log --autor="sunil" --- will give all commits including sunil as name and email but its case sensitive.
+39. git log (filename1, filename2...) -- to get all commits from given files.
+40. git diff --- tells about the changes in current file
+41. git diff master --- shows changes in current wrt ot master
+42. git blame --- lets you know who worked on a line in a file.
+43. .gitignore --- *.log -> to ignore all files ending with .log
+44. git rebase is used to delete or merge commit on local repo.
+45. 
+
+
+
+VIM : 
+1. to edit we hv to be in insert mode first for that click i then insert will appear at the bottom left.Then you can start commiting.
+2. to save and exit vim - first we hv to be out of insert mode so press esc and then write :wq to exit.
+
+
+
+
+
+
